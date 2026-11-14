@@ -1,0 +1,20 @@
+# Compiled C++ output
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Build directories
+build/
+cmake-build-*/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.user
+*.suo
