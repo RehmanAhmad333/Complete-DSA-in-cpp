@@ -113,8 +113,8 @@ After creating a GitHub repository, replace `REHMANAHMAD333/<your-repository>`
 with its URL:
 
 ```sh
-git clone https://github.com/<your-username>/<your-repository>.git
-cd <your-repository>
+git clone https://github.com/RehmanAhmad333/Complete-DSA-in-cpp.git
+cd Complete-DSA-in-cpp
 ```
 
 ### Compile and run one example
