@@ -1,69 +1,67 @@
+<h1 align="center">Data Structures & Algorithms in C++</h1>
+
 <p align="center">
-  <img
-    alt="Data Structures and Algorithms in C++"
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:102A43,100:2563EB&height=220&section=header&text=DSA%20in%20C%2B%2B&fontSize=54&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Data%20structures%20%7C%20Algorithms%20%7C%20Problem%20solving&descSize=17&descAlignY=60"
-    width="100%"
-  />
+  <em>86 well-organized C++17 examples for mastering data structures, algorithms, and coding-interview problems.</em>
 </p>
 
 <p align="center">
-  <img alt="Language: C++" src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img alt="C++ standard: C++17" src="https://img.shields.io/badge/Standard-C%2B%2B17-2563EB?style=for-the-badge" />
-  <img alt="86 source files" src="https://img.shields.io/badge/Examples-86-16A34A?style=for-the-badge" />
-  <img alt="License not yet specified" src="https://img.shields.io/badge/License-not%20specified-lightgrey?style=for-the-badge" />
+  <img alt="Language" src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img alt="Standard" src="https://img.shields.io/badge/Standard-C%2B%2B17-2563EB?style=for-the-badge" />
+  <img alt="Examples" src="https://img.shields.io/badge/Examples-86-16A34A?style=for-the-badge" />
+  <img alt="License" src="https://img.shields.io/badge/License-Not%20Specified-lightgrey?style=for-the-badge" />
 </p>
 
 <p align="center">
-  A topic-organized collection of C++ examples for learning data structures,
-  algorithms, and common coding-interview problems.
-</p>
-
-<p align="center">
-  <a href="#about">About</a> &bull;
-  <a href="#topics">Topics</a> &bull;
-  <a href="#repository-structure">Structure</a> &bull;
-  <a href="#getting-started">Getting started</a> &bull;
-  <a href="#learning-notes">Learning notes</a>
+  <a href="#-about">About</a> •
+  <a href="#-topics">Topics</a> •
+  <a href="#-repository-structure">Structure</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-learning-notes">Learning Notes</a> •
+  <a href="#-contributing">Contributing</a>
 </p>
 
 ---
 
-## About
+## 📖 About
 
-This repository brings together **86 C++ practice examples**, organized by
-topic so they are easier to browse, study, and extend. It covers foundational
-data structures, sorting and searching, graph traversal, tree problems, and
-more.
+This repository is a **topic-organized collection of 86 C++ practice examples** covering foundational data structures, sorting and searching, graph traversal, tree problems, and more.
 
-The examples are intended as a learning resource. Explore a topic folder,
-choose one source file, and build it on its own. Many files demonstrate
-different approaches to related problems; compare them to understand their
-trade-offs.
+Each example is a self-contained source file. Pick a topic, open a file, compile it on its own, and compare approaches. Many problems have multiple implementations so you can study the trade-offs.
 
-## Topics
+**Highlights**
+- 🧩 Interview-style problems alongside core implementations
+- 🗂️ Clean, topic-based folder structure
+- ⚡ Each file compiles independently with C++17
+- 🔍 Multiple approaches to related problems
+
+---
+
+## 🗺️ Topics
 
 | Topic | Examples | What you'll find |
-|---|---:|---|
-| [Arrays](arrays/) | 5 | Linear and binary search, sliding windows, and two-pointer problems |
-| [Data structures](data_structures/) | 1 | LRU cache design |
-| [Graphs](graphs/) | 13 | Graph construction, BFS/DFS, cycle detection, topological sorting, and grid problems |
-| [Greedy algorithms](greedy/) | 1 | Gas station problem |
-| [Linked lists](linked_lists/) | 13 | List operations, searching, cycle handling, and common list problems |
+|---|:---:|---|
+| [Arrays](arrays/) | 5 | Linear and binary search, sliding windows, two-pointer problems |
+| [Data Structures](data_structures/) | 1 | LRU cache design |
+| [Graphs](graphs/) | 13 | Construction, BFS/DFS, cycle detection, topological sort, grid problems |
+| [Greedy Algorithms](greedy/) | 1 | Gas station problem |
+| [Linked Lists](linked_lists/) | 13 | Operations, searching, cycle handling, common list problems |
 | [Sorting](sorting/) | 5 | Bubble, insertion, merge, quick, and selection sort |
-| [Stacks and queues](stacks_and_queues/) | 12 | Implementations, monotonic stacks, and queue/stack problems |
-| [Trees](trees/) | 36 | Binary trees, BSTs, traversals, construction, and tree problems |
+| [Stacks & Queues](stacks_and_queues/) | 12 | Implementations, monotonic stacks, queue/stack problems |
+| [Trees](trees/) | 36 | Binary trees, BSTs, traversals, construction, tree problems |
 | **Total** | **86** | |
 
-### A few examples
+### ⭐ Featured Examples
 
-- [Binary search](arrays/searching/binary_search.cpp)
-- [Merge sort](sorting/merge_sort.cpp)
-- [Breadth-first search](graphs/traversal/breadth_first_search.cpp)
-- [Queue using two stacks](stacks_and_queues/implementations/queue_using_stacks.cpp)
-- [Binary tree level-order traversal](trees/binary_trees/traversals/level_order.cpp)
-- [Validate a binary search tree](trees/binary_search_trees/validation/validate_bst.cpp)
+- [Binary Search](arrays/searching/binary_search.cpp)
+- [Merge Sort](sorting/merge_sort.cpp)
+- [Breadth-First Search](graphs/traversal/breadth_first_search.cpp)
+- [Queue Using Two Stacks](stacks_and_queues/implementations/queue_using_stacks.cpp)
+- [Binary Tree Level-Order Traversal](trees/binary_trees/traversals/level_order.cpp)
+- [Validate a Binary Search Tree](trees/binary_search_trees/validation/validate_bst.cpp)
 
-## Repository structure
+---
+
+## 🏗️ Repository Structure
 
 ```text
 .
@@ -97,32 +95,30 @@ trade-offs.
 └── README.md
 ```
 
-## Getting started
+---
 
-### Requirements
+## 🚀 Getting Started
+
+### Prerequisites
 
 - A C++17-compatible compiler:
-  - **Windows:** GCC with MinGW-w64 or MSYS2, or a recent Clang
+  - **Windows:** GCC (MinGW-w64 / MSYS2) or recent Clang
   - **Linux:** GCC or Clang
   - **macOS:** Apple Clang or GCC
-- Git, if you want to clone the repository
+- Git (optional, for cloning)
 
-### Clone the repository
-
-After creating a GitHub repository, replace `REHMANAHMAD333/<your-repository>`
-with its URL:
+### Clone
 
 ```sh
 git clone https://github.com/RehmanAhmad333/Complete-DSA-in-cpp.git
 cd Complete-DSA-in-cpp
 ```
 
-### Compile and run one example
+### Compile & Run a Single Example
 
-Each example is a separate source file. Compile only the file you want to try;
-building every `.cpp` together can cause duplicate `main` definitions.
+> ⚠️ Compile **one file at a time**. Building every `.cpp` together causes duplicate `main` definitions.
 
-**Windows PowerShell**
+**Windows (PowerShell)**
 
 ```powershell
 g++ -std=c++17 .\arrays\searching\binary_search.cpp -o .\binary_search.exe
@@ -136,37 +132,42 @@ g++ -std=c++17 arrays/searching/binary_search.cpp -o binary_search
 ./binary_search
 ```
 
-Replace the example path with any `.cpp` file in the repository. Some files
-focus on reusable classes or functions rather than a complete program; check
-the selected source before running it.
+Replace the path with any `.cpp` file. Some files define reusable classes or functions rather than a full program, so check the source first.
 
-## Learning notes
+---
 
-- The examples are organized for study and practice; they are not a single
-  application or library.
+## 📝 Learning Notes
+
+- Examples are built for study and practice, not as a single application or library.
 - Some topics include alternative implementations of the same technique.
-- A few files are still works in progress and may need fixes before compiling:
+- Known work-in-progress files (may need fixes before compiling):
   - [`maximum_sliding_window.cpp`](arrays/sliding_window/maximum_sliding_window.cpp)
   - [`reverse_list.cpp`](linked_lists/problems/reverse_list.cpp)
   - [`binary_search_doubly_linked_list_draft.cpp`](linked_lists/searching/binary_search_doubly_linked_list_draft.cpp)
   - [`deque_operations.cpp`](stacks_and_queues/implementations/deque_operations.cpp)
-- Examples have not all been fully tested. Verify behavior and edge cases as
-  part of your learning.
+- Not every example has been fully tested. Verify behavior and edge cases as part of your learning.
 
-## Contributing
+---
 
-Contributions and corrections are welcome. To keep the collection easy to
-navigate:
+## 🤝 Contributing
 
-1. Put each example in its relevant topic folder.
+Contributions and corrections are welcome!
+
+1. Place each example in its relevant topic folder.
 2. Use a descriptive `snake_case.cpp` filename.
-3. Keep examples focused, and include a small `main` when a runnable
-   demonstration is useful.
-4. Update the topic counts and links in this README when adding or moving files.
+3. Keep examples focused, with a small `main` where a runnable demo helps.
+4. Update counts and links in this README when adding or moving files.
 
-## License
+---
 
-No license has been specified yet. Until a license is added, others do not
-automatically have permission to reuse, modify, or distribute this repository.
-Add a `LICENSE` file before publishing if you want to grant those permissions.
+## 📄 License
 
+No license has been specified yet. Until one is added, others do not have permission to reuse, modify, or distribute this code.
+
+To grant permissions, add a `LICENSE` file (MIT is a common choice) before making the repository public.
+
+---
+
+<p align="center">
+  ⭐ If this repository helped you, consider giving it a star!
+</p>
